@@ -1,0 +1,7 @@
+<div *ngIf="user">
+    <h2>User Details</h2>
+    <p>ID: {{ user.id }}</p>
+    <p>Name: {{ user.name }}</p>
+    <p><img [src]="user.avatar" alt="{{ user.name }}'s avatar" class="avatar"></p>
+  </div>
+  

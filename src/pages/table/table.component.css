@@ -1,0 +1,39 @@
+/* src/app/pages/table/table.component.css */
+
+.table-container {
+    max-height: 400px; 
+    overflow-y: auto;
+  
+   margin-left: 100px;
+    width: 1000px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  

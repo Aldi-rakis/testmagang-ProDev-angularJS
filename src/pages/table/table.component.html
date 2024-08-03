@@ -1,0 +1,22 @@
+<!-- src/app/pages/table/table.component.html -->
+<h2>Table data Users</h2>
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Avatar</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.id }}</td>
+        <td>{{ user.name }}</td>
+        <td><img [src]="user.avatar" alt="{{ user.name }}'s avatar" class="avatar"></td>
+        <td><button (click)="viewDetail(user)">Detail</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
